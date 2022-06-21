@@ -33,7 +33,7 @@ O dataset possui 13 colunas (que fornecem) dados de 303 pacientes que serão uti
 
 <h2 align="left"> Análise Exploratória </h2>
 
-Após a análise exploratória dos dados, foi realizada a correlação das colunas e vericado que em relação a variável _target_, podemos observar uma correlação mais próxima de 1 em:
+Após a análise exploratória dos dados, foi realizada a correlação das colunas e verificada que em relação a variável _target_, podemos observar uma correlação mais próxima de 1 em:
 - Target x Nível de dor (cp);
 - Target x Rítmo Cardíaco (thalach);
 - Target x Slope.
