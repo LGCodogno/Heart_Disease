@@ -4,13 +4,13 @@
 
 <h2 align="left"> Modelo de Classificação para Doenças Coronárias </h2>
 
-O objetivo desse projeto é, criar um sistema inteligente para tornar mais ágil o processo de triagem dos pacientes que dão entrada no hospital e então fazer o encaminhamento para um especialista. O sistema deve mostrar se o paciente possui ou não doenças coronárias. O modelo de Machine Learning escolhido é um modelo de classificação otimizado pelo F1 Score.
+O objetivo desse projeto é criar um sistema inteligente para tornar mais ágil o processo de triagem dos pacientes que dão entrada no hospital e então fazer o encaminhamento para um especialista. O sistema deve mostrar se o paciente possui ou não doenças coronárias. O modelo de Machine Learning escolhido é um modelo de classificação otimizado pelo F1 Score.
 
 O dataset é público e está disponível no Kaggle: https://www.kaggle.com/datasets/priyanka841/heart-disease-prediction-uci
 
 <h2 align="left"> Introdução </h2>
 
-O dataset conta com 13 colunas onde fornece dados de 303 pacientes que serão utilizados para a análise com o objetivo de detectar possíveis doenças cardíacas. A coluna _target_ indica a presença ou não de doenças.
+O dataset possui 13 colunas (que fornecem) dados de 303 pacientes que serão utilizados para a análise com o objetivo de detectar possíveis doenças cardíacas. A coluna _target_ indica a presença ou não de doenças.
 
 <details>
   <summary> Dicionário das colunas (features): </summary>
