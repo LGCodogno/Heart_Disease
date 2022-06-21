@@ -53,12 +53,17 @@ Para a fase de criação do modelo de Machine Learning, os dados foram separados
 
 Por fim, as métricas dos modelos foram organizadas numa nova tabela com foco no F1 Score:
 
---| Classificador | Accuracy | Precision | Recall | F1 Score
-4 | KNN | 83.606557	81.818182	87.096774	84.375000
-0	Gaussian NB	78.688525	76.470588	83.870968	80.000000
-1	Bernoulli NB	77.049180	71.794872	90.322581	80.000000
-2	Complement NB	75.409836	71.052632	87.096774	78.260870
-7	Random Forest	75.409836	72.222222	83.870968	77.611940
-5	Logistic Regression	73.770492	69.230769	87.096774	77.142857
-6	Decision Tree	72.131148	68.421053	83.870968	75.362319
-3	Multinomial NB	70.491803	65.853659	87.096774	75.000000
+Nº | Classificador | Accuracy | Precision | Recall | F1 Score |
+-- |---------------|----------|-----------|--------|----------|
+4 | KNN | 83.606557 | 81.818182 | 87.096774 | 84.375000 |
+0 | Gaussian NB | 78.688525 | 76.470588 | 83.870968 | 80.000000 |
+1 | Bernoulli NB | 77.049180 | 71.794872 | 90.322581 | 80.000000 |
+2 | Complement NB | 75.409836 | 71.052632 | 87.096774 |	78.260870 |
+7 | Random Forest | 75.409836 | 72.222222 | 83.870968 | 77.611940 |
+5 | Logistic Regression | 73.770492 | 69.230769 | 87.096774 | 77.142857 |
+6 | Decision Tree | 72.131148 | 68.421053 | 83.870968 | 75.362319 |
+3 | Multinomial NB | 70.491803 | 65.853659 | 87.096774 | 75.000000 |
+
+<h2 align="left"> Conclusão </h2>
+
+Para essa fase de aplicação, é possível dizer que o modelo com o melhor F1 Score é o modelo KNN com um valor de 84.38% seguido pelo modelo Naive Bayes Gaussian e Bernoulli, ambos com 80%.
